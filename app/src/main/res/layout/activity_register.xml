@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/colorWhite"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:padding="@dimen/dp_20"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.register.RegisterActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="REGISTER"
+        android:textAllCaps="true"
+        android:textColor="@color/colorBlack"
+        android:textSize="@dimen/sp_40" />
+
+    <EditText
+        android:id="@+id/edittext_username_register"
+        android:paddingLeft="@dimen/dp_20"
+        android:hint="Username"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_55"
+        android:layout_marginTop="@dimen/dp_30"
+        android:background="@drawable/boder_edittext" />
+
+    <EditText
+        android:id="@+id/edittext_url_register"
+        android:paddingLeft="@dimen/dp_20"
+        android:hint="Url Image"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_55"
+        android:layout_marginTop="@dimen/dp_20"
+        android:background="@drawable/boder_edittext" />
+
+    <EditText
+        android:id="@+id/edittext_email_register"
+        android:paddingLeft="@dimen/dp_20"
+        android:hint="@string/text_hint_email"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_55"
+        android:layout_marginTop="@dimen/dp_20"
+        android:background="@drawable/boder_edittext" />
+
+    <EditText
+        android:id="@+id/edittext_password_register"
+        android:inputType="textPassword"
+        android:paddingLeft="@dimen/dp_20"
+        android:hint="@string/text_hint_password"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_55"
+        android:layout_marginTop="@dimen/dp_20"
+        android:background="@drawable/boder_edittext" />
+
+    <Button
+        android:id="@+id/button_register_ok"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_55"
+        android:layout_marginTop="@dimen/dp_30"
+        android:background="@color/colorBlue"
+        android:text="Register"
+        android:textColor="@color/colorWhite" />
+</LinearLayout>
